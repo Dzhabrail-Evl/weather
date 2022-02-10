@@ -1,0 +1,24 @@
+@import "../../styles/variables.module.scss";
+
+.weather {
+    &__search {
+        height: 40px;
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__error_message {
+        margin-top: 15px;
+        color: $red;
+    }
+
+    &__wrap {
+        width: 400px;
+        height: 500px;
+        margin: 0 auto;
+        border-radius: 10px;
+        background-image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/686.png";
+    }
+}
